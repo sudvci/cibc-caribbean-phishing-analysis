@@ -34,34 +34,21 @@ Fetched `/` impersonating Chrome. Got the anti-bot decoy page (here's a snippet)
               <h1>Access not allowed</h1>
               <p>Automated traffic is not permitted on this site.</p>
           </main>
-          <div hidden=""></div>
-          <script
-              src="/_next/static/chunks/webpack-b902ad002392232f.js"
-              async=""
-          ></script>
-          <script>
-              (self.__next_f = self.__next_f || []).push([0]);
-          </script>
+          ...
           <script>
               self.__next_f.push([
                   1,
-                  '1:"$Sreact.fragment"\n2:I[5429,["509","static/chunks/509-3e5877b939fd87a8.js","177","static/chunks/app/layout-502b8f3b4c8af488.js"],"default"]\n...',
+                  '1:"$Sreact.fragment"\n2:I[5429,["509","static/chunks/509-3e5877b939fd87a8.js","177","static/chunks/app/layout-502b8f3b4c8af488.js"],"default"]...'
               ]);
           </script>
   ```
   
-  Seems like a Next.js RSC-rendered page that shows "Access not allowed / Automated traffic is not permitted on this site."
+  Seems like a Next.js RSC-rendered page that shows "Access not allowed".
   
-  Hidden in the RSC payload was the Next.js build ID:
-  `jS7HLfsNPkrJunzq3p8j-` and the current route `not-allowed`.
+  Hidden in the RSC payload was the Next.js build ID `jS7HLfsNPkrJunzq3p8j-` and the current route `not-allowed`:
   
-  ```html
-  <script>
-      self.__next_f.push([
-          1,
-          '0:{"P":null,"b":"jS7HLfsNPkrJunzq3p8j-","p":"","c":["","not-allowed"],...}'
-      ]);
-  </script>
+  ```json
+  {"b":"jS7HLfsNPkrJunzq3p8j-", "c":["","not-allowed"]}
   ```
 
 ### 2. Enumerating Build Manifest
@@ -69,7 +56,7 @@ Fetched `/` impersonating Chrome. Got the anti-bot decoy page (here's a snippet)
 Fetched `/_next/static/jS7HLfsNPkrJunzq3p8j-/_buildManifest.js`. It's a
 Pages Router manifest with only `/_app` and `/_error`. The real app uses App Router, so routes aren't exposed here.
 
-### 3. JS chunk download & analysis (`recon.py`) 
+### 3. JS chunk download & analysis (`recon.py`)
 
 Downloaded all 8 JS chunks referenced in the HTML.
 Key findings from `app/layout-502b8f3b4c8af488.js`:
@@ -81,15 +68,14 @@ size: "invisible",
 
 - Site wraps the entire app in a `RecaptchaProvider` using **invisible reCAPTCHA** (`size="invisible"`).
 - Hardcoded fallback site key: `6Lew2fkrAAAAAOmRUFxLnGjTwki1ex0MMCvtAqYS`
-- The token flow: reCAPTCHA fires silently -> token sent to server -> middleware validates -> allow or block.
+- The token flow: reCAPTCHA fires silently → token sent to server → middleware validates → allow or block.
 
 The largest CSS file (`6ec1c51b335e5fa2.css`, 689 KB) contains Angular
 component attribute selectors (`[_ngcontent-qea-c664]`). This is the real
 CIBC Caribbean banking app's compiled CSS, **stolen wholesale**. Fonts are
 self-hosted at `/fonts/external/googlesans/` and `/fonts/external/yahoo/`.
 
-Discovered the middleware has at least three response branches based on IP
-reputation/geo:
+Discovered the middleware has at least two response branches based on IP reputation/geo:
 
 | IP type | `GET /` | `GET /login` |
 |---|---|---|
@@ -183,7 +169,7 @@ DNS-over-HTTPS MX lookup:
 GET https://cloudflare-dns.com/dns-query?name={domain}&type=MX
 ```
 The result routes the victim to a provider-specific fake inbox login:
-`/email/gmail`, `/email/outlook`, `/email/yahoo`, `/email/icloud`.
+`/email/gmail`, `/email/live`, `/email/yahoo`, `/email/icloud`, `/email/aol`.
 
 ## OPSEC Failures
 

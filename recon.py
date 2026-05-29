@@ -1,17 +1,3 @@
-"""
-recon.py — Next.js phishing-site reconnaissance tool
-=====================================================
-Fetches build manifests, JS chunks, and pages from the target site,
-then searches the JS for interesting strings (API routes, form actions,
-credential-harvesting patterns, external C2 URLs, etc.).
-
-Usage:
-    python recon.py
-
-All fetched assets are saved to ./assets/.
-A summary is printed to stdout and appended to writeup.md.
-"""
-
 from __future__ import annotations
 
 import json
@@ -20,7 +6,7 @@ import sys
 import textwrap
 import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 from curl_cffi import requests
 
@@ -44,6 +30,7 @@ JS_HEADERS = {
     "Referer": BASE_URL + "/",
 }
 
+# Patterns to grep for in JS sources
 INTERESTING_PATTERNS: list[tuple[str, str]] = [
     ("API_ROUTE", r'(?:fetch|axios|post|get)\s*\(\s*["\'](\/[^"\']{{2,}})["\']'),
     ("ABSOLUTE_URL", r"https?://[a-zA-Z0-9._/-]{{8,}}"),
@@ -75,12 +62,16 @@ KNOWN_CSS: list[str] = [
 session = requests.Session()
 
 
-def get(path, *, base=BASE_URL, headers=None, retries=2):
+def get(
+    path: str, *, base: str = BASE_URL, headers: dict | None = None, retries: int = 2
+) -> requests.Response | None:
     url = urljoin(base, path) if not path.startswith("http") else path
     h = {**HEADERS, **(headers or {})}
     for attempt in range(retries):
         try:
-            r = session.get(url, impersonate="chrome", headers=h, timeout=30, allow_redirects=True)
+            r = session.get(
+                url, impersonate="chrome", headers=h, timeout=30, allow_redirects=True
+            )
             print(f"  GET {url}  ->  {r.status_code}")
             return r
         except Exception as exc:
@@ -90,11 +81,11 @@ def get(path, *, base=BASE_URL, headers=None, retries=2):
     return None
 
 
-def safe_filename(path):
+def safe_filename(path: str) -> str:
     return re.sub(r"[^\w.\-]", "_", path.lstrip("/"))
 
 
-def save(dest, content):
+def save(dest: Path, content: str | bytes) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     if isinstance(content, str):
         dest.write_text(content, encoding="utf-8")
@@ -102,8 +93,8 @@ def save(dest, content):
         dest.write_bytes(content)
 
 
-def grep_js(source, filename):
-    hits = {}
+def grep_js(source: str, filename: str) -> dict[str, list[str]]:
+    hits: dict[str, list[str]] = {}
     for label, pattern in INTERESTING_PATTERNS:
         matches = list(dict.fromkeys(re.findall(pattern, source, re.IGNORECASE)))
         if matches:
@@ -111,10 +102,11 @@ def grep_js(source, filename):
     return hits
 
 
-def fetch_build_manifests():
+def fetch_build_manifests() -> tuple[list[str], list[str]]:
     manifest_path = f"/_next/static/{BUILD_ID}/_buildManifest.js"
     ssg_path = f"/_next/static/{BUILD_ID}/_ssgManifest.js"
-    extra_chunks, routes = [], []
+    extra_chunks: list[str] = []
+    routes: list[str] = []
 
     for path, label in [(manifest_path, "buildManifest"), (ssg_path, "ssgManifest")]:
         r = get(path, headers=JS_HEADERS)
@@ -122,21 +114,25 @@ def fetch_build_manifests():
             print(f"  [!] Could not fetch {path}")
             continue
         save(ASSETS_DIR / f"{label}.js", r.text)
+        print(f"  [+] Saved {label}.js ({len(r.text):,} bytes)")
+
         if label == "buildManifest":
             pages_m = re.search(r'"sortedPages"\s*:\s*(\[[^\]]+\])', r.text)
             if pages_m:
                 try:
                     routes = json.loads(pages_m.group(1))
+                    print(f"  [+] Found {len(routes)} pages in sortedPages")
                 except json.JSONDecodeError:
                     routes = re.findall(r'"(/[^"]*)"', pages_m.group(1))
             chunk_matches = re.findall(r'"(static/chunks/[^"]+\.js)"', r.text)
             extra_chunks = [f"/_next/{c}" for c in dict.fromkeys(chunk_matches)]
+            print(f"  [+] Found {len(extra_chunks)} chunk references in buildManifest")
 
     return extra_chunks, routes
 
 
-def fetch_chunks(paths):
-    sources = {}
+def fetch_chunks(paths: list[str]) -> dict[str, str]:
+    sources: dict[str, str] = {}
     for path in paths:
         r = get(path, headers=JS_HEADERS)
         if r is None or r.status_code != 200:
@@ -147,8 +143,8 @@ def fetch_chunks(paths):
     return sources
 
 
-def probe_routes(routes):
-    results = {}
+def probe_routes(routes: list[str]) -> dict[str, int]:
+    results: dict[str, int] = {}
     for route in routes:
         if route in ("/", "/_error", "/_app", "/_document", "/not-allowed"):
             continue
@@ -159,18 +155,19 @@ def probe_routes(routes):
         if r.status_code not in (404, 410):
             dest = PAGES_DIR / safe_filename(route + ".html")
             save(dest, r.text)
+            print(f"  [+] Saved page {route}  ({len(r.text):,} bytes)")
     return results
 
 
-def fetch_css(paths):
+def fetch_css(paths: list[str]) -> None:
     for path in paths:
         r = get(path, headers=JS_HEADERS)
         if r and r.status_code == 200:
             save(CSS_DIR / safe_filename(path), r.text)
 
 
-def analyze_sources(sources):
-    all_hits = {}
+def analyze_sources(sources: dict[str, str]) -> dict[str, dict[str, list[str]]]:
+    all_hits: dict[str, dict[str, list[str]]] = {}
     for path, src in sources.items():
         hits = grep_js(src, path)
         if hits:
@@ -200,4 +197,4 @@ if __name__ == "__main__":
     print("\n[5] Analyzing JS sources ...")
     all_hits = analyze_sources(sources)
 
-    print("\n[6] Done. Assets saved to ./assets/")
+    print("\n[*] Done. Assets saved to ./assets/")
