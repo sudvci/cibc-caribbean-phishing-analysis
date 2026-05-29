@@ -1,11 +1,12 @@
 from pathlib import Path
+from typing import Final
 from urllib.parse import urljoin
 
 from curl_cffi import requests
 
-URL = "https://cibccaribbeanid.icu"
-OUT = Path("index.html")
-HEADERS = {
+URL: Final[str] = "https://cibccaribbeanid.icu"
+OUT: Final[Path] = Path("index.html")
+HEADERS: Final[dict[str, str]] = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Upgrade-Insecure-Requests": "1",

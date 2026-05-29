@@ -1,4 +1,4 @@
-# cibccaribbeanid.icu — Phishing Site Analysis
+# cibccaribbeanid.icu Phishing Site Analysis
 
 ## What It Is
 
@@ -7,8 +7,11 @@ uses Unicode lookalike characters (`СIВС Саribbеаn - ОnIinе Ваnking`)
 spoof the real brand. Included `noindex, nofollow` meta tag to avoid search
 engine indexing.
 
+## How We Got Here
 
-## Whois Lookup
+![initial text I got](/text.png)
+
+### 1. WhoIs Lookup
 
 | Field | Value |
 |---|---|
@@ -20,11 +23,8 @@ engine indexing.
 | Registrar abuse | `abuse@publicdomainregistry.com` |
 | Host abuse | `abuse@digitalocean.com` |
 
----
 
-## How We Got Here (Step-by-Step)
-
-### 1. Initial fetch
+### 2. Initial fetch
 
 Fetched `/` impersonating Chrome. Got the anti-bot decoy page (here's a snippet):
 
@@ -51,12 +51,12 @@ Fetched `/` impersonating Chrome. Got the anti-bot decoy page (here's a snippet)
   {"b":"jS7HLfsNPkrJunzq3p8j-", "c":["","not-allowed"]}
   ```
 
-### 2. Enumerating Build Manifest
+### 3. Enumerating Build Manifest
 
 Fetched `/_next/static/jS7HLfsNPkrJunzq3p8j-/_buildManifest.js`. It's a
 Pages Router manifest with only `/_app` and `/_error`. The real app uses App Router, so routes aren't exposed here.
 
-### 3. JS chunk download & analysis (`recon.py`)
+### 4. JS chunk download & analysis (`recon.py`)
 
 Downloaded all 8 JS chunks referenced in the HTML.
 Key findings from `app/layout-502b8f3b4c8af488.js`:
@@ -124,7 +124,7 @@ All fields collected across the multi-step flow:
 
 Total exfil per victim: banking credentials, full card details, PII (name/DOB/address/phone), government ID photos, OTP codes, and email account password.
 
-## Route Discovery — Middleware Bypass via `/api/` prefix
+## Route Discovery: Middleware Bypass via `/api/` prefix
 
 The Next.js middleware blocks pretty URLs (`/login`, `/card`, etc.) but the
 App Router uses a dynamic segment `[id]` — so accessing `/api/login` passes
