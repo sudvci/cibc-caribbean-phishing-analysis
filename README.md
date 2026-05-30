@@ -11,18 +11,23 @@ port 22**.
 
 The kit harvests, across a multi-step flow: banking credentials, full card
 details, PII (name/DOB/address/phone), government-ID photos, live OTP/2FA codes,
-and the victim's **email-account password** (via pixel-perfect Gmail / Outlook /
+and the victim's email-account password (via pixel-perfect Gmail / Outlook /
 Yahoo / iCloud / AOL clones, including live 2FA interception).
 
 The exfil destination is server-side only and not visible in client JS — but it
-almost certainly resolves to a **Telegram bot token / chat ID** (and possibly a
+almost certainly resolves to a Telegram bot token / chat ID (and possibly a
 Discord webhook) stored inside the exposed Dokploy instance's PostgreSQL
 database and container environment variables. That Dokploy panel + open SSH is
 the single highest-value evidence point for takedown and attribution.
 
 ## How We Got Here
-
+ I received this text to my personal phone number via SMS. 
+ 
 ![initial text I got](/text.png)
+
+I had not yet registered this new number with my bank, so I was not expecting any messages from them. The message contained a link to the phishing site, which I immediately recognized as suspicious. I decided to investigate further and analyze the site.
+
+The site wouldn't load on my phone due to a combination on anti-fingerprinting add-ons in my browser, and my VPN (Mullvad) being always switched on. 
 
 ### 1. Key Findings
 
