@@ -1,0 +1,224 @@
+{
+  "crtsh": {
+    "domain": {
+      "status": -1,
+      "error": ""
+    },
+    "ip": {
+      "status": -1,
+      "error": ""
+    },
+    "wildcard_tld": {
+      "status": -1,
+      "error": ""
+    },
+    "related_domains_in_san": []
+  },
+  "shodan_internetdb": {
+    "status": 404,
+    "data": {
+      "detail": "No information available"
+    }
+  },
+  "greynoise": {
+    "status": 200,
+    "data": {
+      "ip": "188.166.36.41",
+      "noise": false,
+      "riot": true,
+      "classification": "benign",
+      "name": "DigitalOcean",
+      "link": "https://viz.greynoise.io/ip/188.166.36.41",
+      "last_seen": "2026-05-29",
+      "message": "Success"
+    }
+  },
+  "circl_pdns": {
+    "domain": {
+      "count": 0,
+      "records": []
+    },
+    "ip": {
+      "count": 0,
+      "records": []
+    },
+    "unique_rdata": []
+  },
+  "circl_pssl": {
+    "status": 401,
+    "data": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>401 Unauthorized</title>\n</head><body>\n<h1>Unauthorized</h1>\n<p>This server could not verify that you\nare authorized to access the document\nrequested.  Either you supplied the wrong\ncredentials (e.g., bad password), or your\nbrowser doesn't understand how to supply\nthe credentials required.</p>\n</body></html>\n"
+  },
+  "hackertarget_reverse_ip": {
+    "status": 200,
+    "raw": "ams.smarttechco.ir",
+    "domains": [
+      "ams.smarttechco.ir"
+    ],
+    "count": 1
+  },
+  "urlhaus": {
+    "host_domain": {
+      "status": 401,
+      "data": {
+        "error": "Unauthorized"
+      }
+    },
+    "host_ip": {
+      "status": 401,
+      "data": {
+        "error": "Unauthorized"
+      }
+    },
+    "url_kit": {
+      "status": 401,
+      "data": {
+        "error": "Unauthorized"
+      }
+    }
+  },
+  "urlscan": {
+    "domain": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 45,
+        "has_more": false
+      }
+    },
+    "domain_related": [],
+    "ip": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 249,
+        "has_more": false
+      }
+    },
+    "ip_related": [],
+    "recaptcha_key": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 493,
+        "has_more": false
+      }
+    },
+    "recaptcha_key_related": [],
+    "action_id": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 77,
+        "has_more": false
+      }
+    },
+    "action_id_related": []
+  },
+  "phishtank": {
+    "https___cibccaribbeanid_icu_": {
+      "url": "https://cibccaribbeanid.icu/",
+      "status": 403,
+      "data": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-ru5gxOogvLNLCPxuMMHxQe&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+    },
+    "https___cibccaribbeanid_icu_api_login": {
+      "url": "https://cibccaribbeanid.icu/api/login",
+      "status": 403,
+      "data": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-6Jftx0NOrjzJuKkCQSJRsx&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+    },
+    "http___188_166_36_41_3000_": {
+      "url": "http://188.166.36.41:3000/",
+      "status": 403,
+      "data": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-ELcglCPQ3ROkXb7uVPXUTV&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+    }
+  },
+  "recaptcha_osint": {
+    "recaptcha_in_page": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 176,
+        "has_more": false
+      }
+    },
+    "recaptcha_in_page_domains": [],
+    "phish_build_id": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 63,
+        "has_more": false
+      }
+    },
+    "phish_build_id_domains": [],
+    "dokploy_build_id": {
+      "status": 200,
+      "data": {
+        "results": [],
+        "total": 0,
+        "took": 360,
+        "has_more": false
+      }
+    },
+    "dokploy_build_id_domains": []
+  },
+  "github_search": {
+    "recaptcha_key": {
+      "status": 401,
+      "data": {
+        "message": "Requires authentication",
+        "documentation_url": "https://docs.github.com/rest",
+        "status": "401"
+      }
+    },
+    "server_action": {
+      "status": 401,
+      "data": {
+        "message": "Requires authentication",
+        "documentation_url": "https://docs.github.com/rest",
+        "status": "401"
+      }
+    },
+    "pnc_template": {
+      "status": 401,
+      "data": {
+        "message": "Requires authentication",
+        "documentation_url": "https://docs.github.com/rest",
+        "status": "401"
+      }
+    }
+  },
+  "ipinfo": {
+    "status": 200,
+    "data": {
+      "ip": "188.166.36.41",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "NL",
+      "loc": "52.3740,4.8897",
+      "org": "AS14061 DigitalOcean, LLC",
+      "postal": "1012",
+      "timezone": "Europe/Amsterdam",
+      "readme": "https://ipinfo.io/missingauth"
+    }
+  },
+  "threatfox": {
+    "domain": {
+      "status": 401,
+      "data": {
+        "error": "Unauthorized"
+      }
+    },
+    "ip": {
+      "status": 401,
+      "data": {
+        "error": "Unauthorized"
+      }
+    }
+  }
+}

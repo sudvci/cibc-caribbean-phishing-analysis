@@ -1,0 +1,35 @@
+{
+  "by_chunk": {
+    "index-b489f2de59f0145a.js": [],
+    "home-7729e97c68437c42.js": [
+      "deployment.allCentralized",
+      "project.homeStats",
+      "user.getPermissions"
+    ],
+    "docker-86d52cfba604e465.js": [],
+    "deployments-ceed5db74f87eabf.js": [
+      "application.cancelDeployment",
+      "compose.cancelDeployment",
+      "deployment.allCentralized",
+      "deployment.queueList",
+      "settings.isCloud"
+    ],
+    "1797-879b94e94b64cc90.js": [],
+    "3200-b4048b58116aa218.js": [],
+    "[accept-invitation]-ff77f954fa5d9ddb.js": [],
+    "monitoring-6aeaafc5c7e7c564.js": [
+      "user.getMetricsToken"
+    ]
+  },
+  "all_procedures": [
+    "application.cancelDeployment",
+    "compose.cancelDeployment",
+    "deployment.allCentralized",
+    "deployment.queueList",
+    "project.homeStats",
+    "settings.isCloud",
+    "user.getMetricsToken",
+    "user.getPermissions"
+  ],
+  "string_literal_only": []
+}

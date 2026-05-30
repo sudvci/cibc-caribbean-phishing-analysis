@@ -1,0 +1,332 @@
+[
+  {
+    "event": "LOGIN",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:34 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "CARD",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:34 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "EMAIL & MOBILE",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:35 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "EMAIL",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:36 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "EMAIL OTP",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:36 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "BILLING",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:37 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "DOCUMENT",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:37 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "OTP",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:38 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "CONFIRMATION",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:39 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "SESSION",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:39 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "INFO",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:41 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "ADMIN",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:41 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "DEBUG",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:42 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "TEST",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:42 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "STATUS",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:43 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "CONFIG",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:44 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "ENV",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:44 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "RESET",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:45 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "LIST",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:46 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "DUMP",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:46 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "EXPORT",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:47 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  },
+  {
+    "event": "SESSIONS",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:48 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    }
+  }
+]

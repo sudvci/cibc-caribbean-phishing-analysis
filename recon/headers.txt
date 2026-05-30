@@ -1,0 +1,137 @@
+HTTP 200  https://cibccaribbeanid.icu/api/login
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:44 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image", </images/db-release-1--ob-banner-image-.jpg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/card
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:44 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/billing
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:44 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:44 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/otp
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:45 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/document
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:45 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/confirmation
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:45 GMT
+  link: </images/cibc-logo-grey.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email/gmail
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:46 GMT
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email/yahoo
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:46 GMT
+  link: <https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png>; rel=preload; as="image", <https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage_2x.png>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email/aol
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:46 GMT
+  link: <https://s.yimg.com/cv/apiv2/ybar/logos/aol-logo-black-v1.png>; rel=preload; as="image", <https://s.yimg.com/cv/apiv2/ybar/logos/aol-logo-white-v1.png>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email/live
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:47 GMT
+  link: <https://logincdn.msauth.net/shared/5/js/../images/fluent_web_light_57fee22710b04cebe1d5.svg>; rel=preload; as="image"
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 200  https://cibccaribbeanid.icu/api/email/icloud
+  alt-svc: h3=":443"; ma=2592000
+  cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+  content-encoding: gzip
+  content-type: text/html; charset=utf-8
+  date: Fri, 29 May 2026 16:23:47 GMT
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+  x-powered-by: Next.js
+
+HTTP 308  https://cibccaribbeanid.icu/api/block
+  alt-svc: h3=":443"; ma=2592000
+  date: Fri, 29 May 2026 16:23:48 GMT
+  location: https://localhost:3000/not-allowed
+  set-cookie: bot_blocked=1; Path=/; Expires=Sat, 29 May 2027 16:23:48 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=lax
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+
+HTTP 308  https://cibccaribbeanid.icu/
+  alt-svc: h3=":443"; ma=2592000
+  date: Fri, 29 May 2026 16:23:48 GMT
+  location: /login
+  refresh: 0;url=/login
+
+HTTP 308  https://cibccaribbeanid.icu/api/block
+  alt-svc: h3=":443"; ma=2592000
+  date: Fri, 29 May 2026 16:23:48 GMT
+  location: https://localhost:3000/not-allowed
+  set-cookie: bot_blocked=1; Path=/; Expires=Sat, 29 May 2027 16:23:48 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=lax
+  vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch

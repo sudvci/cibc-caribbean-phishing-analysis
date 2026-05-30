@@ -1,0 +1,188 @@
+[
+  {
+    "probe": "null_payload",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":false}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:25 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "wrong_type_string",
+    "path": "/api/login",
+    "status": 500,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:E{\"digest\":\"1496292785\"}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:25 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "empty_array",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":false}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:25 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "extra_unknown_event",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:26 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "prototype_pollution",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:27 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "massive_string_username",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:29 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "sql_injection_attempt",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:30 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "nosql_injection",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:31 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "session_all_data_dump",
+    "path": "/api/confirmation",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:32 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "missing_content_type",
+    "path": "/api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:33 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  },
+  {
+    "probe": "path_traversal_id",
+    "path": "/api/../api/login",
+    "status": 200,
+    "body": "0:{\"a\":\"$@1\",\"f\":\"\",\"b\":\"jS7HLfsNPkrJunzq3p8j-\"}\n1:{\"sent\":true}\n",
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000",
+      "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+      "content-encoding": "gzip",
+      "content-type": "text/x-component",
+      "date": "Fri, 29 May 2026 16:24:33 GMT",
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+      "x-action-revalidated": "[[],0,0]",
+      "x-powered-by": "Next.js"
+    },
+    "interesting": false
+  }
+]

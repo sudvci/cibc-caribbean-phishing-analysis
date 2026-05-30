@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "timestamp": "2026-05-30T00:28:34.039461+00:00",
+    "target_ip": "188.166.36.41",
+    "dokploy_url": "http://188.166.36.41:3000",
+    "phish_url": "https://cibccaribbeanid.icu"
+  },
+  "ssh_keyscan": {
+    "phase": "A",
+    "host": "188.166.36.41",
+    "port": 22,
+    "method": "ssh-keyscan",
+    "keys": [],
+    "raw_stdout": "",
+    "known_banner": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.16",
+    "banner_interpretation": "Ubuntu 24.04 LTS (Noble), OpenSSH 9.6p1"
+  },
+  "connectivity": {
+    "ssh_22": false,
+    "phish_443": false,
+    "dokploy_3000": false,
+    "timestamp": "2026-05-30T00:28:54.747215+00:00"
+  },
+  "version_pin": {
+    "phase": "B",
+    "direct_probes": [
+      {
+        "label": "B1_health",
+        "url": "http://188.166.36.41:3000/api/health",
+        "error": ""
+      },
+      {
+        "label": "B1_version",
+        "url": "http://188.166.36.41:3000/api/version",
+        "error": ""
+      },
+      {
+        "label": "B1_trpc_version_unauthed",
+        "url": "http://188.166.36.41:3000/api/trpc/settings.getDokployVersion",
+        "error": ""
+      }
+    ],
+    "github_releases": [
+      {
+        "tag": "v0.29.5",
+        "published": "2026-05-22",
+        "name": "v0.29.5",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.29.4",
+        "published": "2026-05-11",
+        "name": "v0.29.4",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.29.3",
+        "published": "2026-05-11",
+        "name": "v0.29.3",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.29.2",
+        "published": "2026-04-25",
+        "name": "v0.29.2",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.29.1",
+        "published": "2026-04-20",
+        "name": "v0.29.1",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.29.0",
+        "published": "2026-04-17",
+        "name": "v0.29.0",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.8",
+        "published": "2026-03-19",
+        "name": "v0.28.8",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.7",
+        "published": "2026-03-18",
+        "name": "v0.28.7",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.6",
+        "published": "2026-03-10",
+        "name": "v0.28.6",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.5",
+        "published": "2026-03-09",
+        "name": "v0.28.5",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.4",
+        "published": "2026-03-06",
+        "name": "v0.28.4",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.3",
+        "published": "2026-03-03",
+        "name": "v0.28.3",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.2",
+        "published": "2026-03-01",
+        "name": "v0.28.2",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.1",
+        "published": "2026-02-27",
+        "name": "v0.28.1",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.28.0",
+        "published": "2026-02-27",
+        "name": "v0.28.0",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.27.1",
+        "published": "2026-02-18",
+        "name": "v0.27.1",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.27.0",
+        "published": "2026-02-10",
+        "name": "v0.27.0",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.26.7",
+        "published": "2026-01-31",
+        "name": "v0.26.7",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.26.6",
+        "published": "2026-01-27",
+        "name": "v0.26.6",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.26.5",
+        "published": "2026-01-15",
+        "name": "v0.26.5",
+        "prerelease": false
+      }
+    ],
+    "likely_version": "v0.29.5",
+    "bundle_version_error": "",
+    "cve_analysis": {
+      "likely_version": "v0.29.5",
+      "cves": [
+        {
+          "cve": "CVE-2024-56354",
+          "title": "Dokploy path traversal via application config endpoint",
+          "affected": "< 0.17.0",
+          "severity": "HIGH",
+          "auth_required": true,
+          "notes": "Requires auth; post-auth RCE via arbitrary file read in server config."
+        },
+        {
+          "cve": "CVE-2024-51494",
+          "title": "Dokploy SSRF via compose file Git URL",
+          "affected": "< 0.16.0",
+          "severity": "HIGH",
+          "auth_required": true,
+          "notes": "Requires auth to trigger."
+        },
+        {
+          "cve": "CVE-2024-43799 / GHSA-2j6r-9vv4-6gf5",
+          "title": "Dokploy unauthenticated RCE via setup endpoint",
+          "affected": "< 0.6.2",
+          "severity": "CRITICAL",
+          "auth_required": false,
+          "notes": "If /api/setup or /setup is reachable and instance is not yet initialised, an attacker can create the first admin and gain full access. The 400 'Admin is already created' response from phase 3 confirms this specific vector is CLOSED on this target."
+        },
+        {
+          "cve": "CVE-2025-29927 (Next.js middleware bypass)",
+          "title": "Next.js middleware bypass via x-middleware-subrequest header",
+          "affected": "Next.js < 15.2.3 / < 14.2.25",
+          "severity": "CRITICAL",
+          "auth_required": false,
+          "notes": "Bypasses middleware auth checks by sending the header x-middleware-subrequest: middleware. If Dokploy's auth middleware is Next.js-based (Better Auth sits in Next.js middleware), this could bypass session checks on all API routes. Test: send x-middleware-subrequest: middleware on a 401 tRPC proc."
+        },
+        {
+          "cve": "CVE-2024-34351 (Next.js SSRF via Host header)",
+          "title": "Next.js SSRF in Server Actions via crafted Host header",
+          "affected": "Next.js < 14.1.1",
+          "severity": "HIGH",
+          "auth_required": false,
+          "notes": "Spoofed Host header in a Server Action POST causes Next.js to forward the request to an internal host. Given the phishing kit also uses Next.js Server Actions, this may be exploitable against the *phishing kit* endpoint to cause it to forward data internally."
+        }
+      ],
+      "priority_target": "CVE-2025-29927 (Next.js middleware bypass) is the highest-priority unauthenticated vector to validate in Tier C. Test by replaying a 401-returning tRPC GET with the header 'x-middleware-subrequest: middleware' added."
+    }
+  },
+  "port_rebaseline": {
+    "phase": "E",
+    "timestamp": "2026-05-30T00:29:52.785572+00:00",
+    "scanned": [
+      22,
+      25,
+      53,
+      80,
+      443,
+      587,
+      2375,
+      2376,
+      3000,
+      3001,
+      4000,
+      5000,
+      5432,
+      6379,
+      27017,
+      8080,
+      8443,
+      8888,
+      9000,
+      9090,
+      9200
+    ],
+    "open": [],
+    "expected": [
+      22,
+      3000
+    ],
+    "new_unexpected": [],
+    "details": [
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 22,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 25,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 53,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 80,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 443,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 587,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 2375,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 2376,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 3000,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 3001,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 4000,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 5000,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 5432,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 6379,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 27017,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 8080,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 8443,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 8888,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 9000,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 9090,
+        "open": false
+      },
+      {
+        "phase": "E",
+        "host": "188.166.36.41",
+        "port": 9200,
+        "open": false
+      }
+    ]
+  }
+}

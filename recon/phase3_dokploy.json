@@ -1,0 +1,1724 @@
+[
+  {
+    "label": "A_trpc_settings.isCloud",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud",
+    "status": 200,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"result\":{\"data\":{\"json\":false}}}",
+    "interesting": true
+  },
+  {
+    "label": "A_trpc_admin.isRegistered",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/admin.isRegistered",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"admin.isRegistered\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"admin.isRegistered\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_setup.isRunning",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/setup.isRunning",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"setup.isRunning\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"setup.isRunning\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_setup.getStatus",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/setup.getStatus",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"setup.getStatus\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"setup.getStatus\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_setup.get",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/setup.get",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"setup.get\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"setup.get\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getDokployVersion",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getDokployVersion",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"settings.getDokployVersion\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getServerIp",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getServerIp",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getServerIp\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getServerIp\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getLetsEncryptEmail",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getLetsEncryptEmail",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getLetsEncryptEmail\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getLetsEncryptEmail\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getCertificateType",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getCertificateType",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getCertificateType\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getCertificateType\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getDockerConfig",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getDockerConfig",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getDockerConfig\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getDockerConfig\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getDockerCleanup",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getDockerCleanup",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getDockerCleanup\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getDockerCleanup\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getStoredPaymentConfig",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getStoredPaymentConfig",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getStoredPaymentConfig\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getStoredPaymentConfig\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getAllRegistries",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getAllRegistries",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getAllRegistries\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getAllRegistries\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getGitProviders",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getGitProviders",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getGitProviders\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getGitProviders\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.getServerInfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getServerInfo",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getServerInfo\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getServerInfo\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_settings.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.get",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.get",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.get\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.getPermissions",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.getPermissions",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.getPermissions\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.byEmail",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.byEmail",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"user.byEmail\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"user.byEmail\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.isCurrentUser",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.isCurrentUser",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"user.isCurrentUser\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"user.isCurrentUser\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_user.getSelfUser",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.getSelfUser",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"user.getSelfUser\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"user.getSelfUser\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_auth.isRoot",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/auth.isRoot",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"auth.isRoot\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"auth.isRoot\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_auth.get",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/auth.get",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"auth.get\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"auth.get\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_auth.getSelfUser",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/auth.getSelfUser",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"auth.getSelfUser\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"auth.getSelfUser\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_auth.createAdmin",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/auth.createAdmin",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"auth.createAdmin\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"auth.createAdmin\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_project.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/project.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"project.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_project.getPublic",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/project.getPublic",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"project.getPublic\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"project.getPublic\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_application.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/application.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"application.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"application.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_application.getDockerOptions",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/application.getDockerOptions",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"application.getDockerOptions\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"application.getDockerOptions\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_compose.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/compose.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"compose.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"compose.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_server.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/server.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"server.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_server.getDockerInfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/server.getDockerInfo",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"server.getDockerInfo\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"server.getDockerInfo\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_server.getConfig",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/server.getConfig",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"server.getConfig\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"server.getConfig\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_server.getSystemInfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/server.getSystemInfo",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"server.getSystemInfo\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"server.getSystemInfo\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_notification.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/notification.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"notification.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_notification.getChannels",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/notification.getChannels",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"notification.getChannels\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"notification.getChannels\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_notification.one",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/notification.one",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"notification.one\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_deployment.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/deployment.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"deployment.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_deployment.getPublic",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/deployment.getPublic",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"deployment.getPublic\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"deployment.getPublic\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_certificate.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/certificate.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"certificate.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"certificate.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_domain.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/domain.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"domain.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"domain.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_monitoring.get",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/monitoring.get",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"monitoring.get\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"monitoring.get\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_monitoring.getContainerStats",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/monitoring.getContainerStats",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"monitoring.getContainerStats\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"monitoring.getContainerStats\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_backup.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/backup.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"backup.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"backup.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_destination.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/destination.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"destination.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_invitation.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/invitation.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"invitation.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"invitation.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_invitation.getPending",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/invitation.getPending",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"invitation.getPending\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"invitation.getPending\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_audit.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/audit.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"audit.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"audit.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_audit.getLogs",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/audit.getLogs",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"audit.getLogs\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"audit.getLogs\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_registry.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/registry.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"registry.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_gitProvider.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/gitProvider.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"gitProvider.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"gitProvider.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_ai.getConfig",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/ai.getConfig",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"ai.getConfig\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"ai.getConfig\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_traefik.getConfig",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/traefik.getConfig",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"traefik.getConfig\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"traefik.getConfig\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_traefik.getDynamic",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/traefik.getDynamic",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"traefik.getDynamic\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"traefik.getDynamic\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_security.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/security.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"security.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"security.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_redis.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/redis.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"redis.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"redis.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_mysql.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/mysql.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"mysql.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"mysql.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_postgres.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/postgres.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"postgres.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"postgres.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_mariadb.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/mariadb.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"mariadb.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"mariadb.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_mongo.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/mongo.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"mongo.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"mongo.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_cluster.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/cluster.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"cluster.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"cluster.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_cluster.getSwarmNodes",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/cluster.getSwarmNodes",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"cluster.getSwarmNodes\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"cluster.getSwarmNodes\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_cluster.getInfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/cluster.getInfo",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"cluster.getInfo\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"cluster.getInfo\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_docker.getContainers",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getContainers",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"docker.getContainers\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_docker.getImages",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getImages",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"docker.getImages\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"docker.getImages\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_docker.getVolumes",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getVolumes",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"docker.getVolumes\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"docker.getVolumes\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_docker.getNetworks",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getNetworks",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"docker.getNetworks\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"docker.getNetworks\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A_trpc_docker.getStats",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getStats",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"docker.getStats\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"docker.getStats\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_settings.isCloud",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud",
+    "status": 200,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"result\":{\"data\":{\"json\":false}}}",
+    "interesting": true
+  },
+  {
+    "label": "A2_trpc_null_admin.isRegistered",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/admin.isRegistered",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"admin.isRegistered\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"admin.isRegistered\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_setup.isRunning",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/setup.isRunning",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"setup.isRunning\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"setup.isRunning\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_settings.getDokployVersion",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getDokployVersion",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"settings.getDokployVersion\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_settings.getServerInfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.getServerInfo",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"settings.getServerInfo\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"settings.getServerInfo\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_notification.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/notification.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"notification.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_project.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/project.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"project.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_user.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/user.all",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_audit.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/audit.all",
+    "status": 404,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"audit.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"audit.all\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "A2_trpc_null_docker.getContainers",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/docker.getContainers",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"docker.getContainers\",\"zodError\":null}}}}",
+    "interesting": false
+  },
+  {
+    "label": "B_batch_isCloud+notification.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,notification.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"notification.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+project.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,project.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"project.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+user.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,user.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+audit.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,audit.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"audit.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"audit.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+docker.getContainers",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,docker.getContainers?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"docker.getContainers\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+deployment.all",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,deployment.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"deployment.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_isCloud+settings.getDokployVersion",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/settings.isCloud,settings.getDokployVersion?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"result\":{\"data\":{\"json\":false}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"settings.getDokployVersion\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "B_batch_private_multi",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/trpc/notification.all,project.all,user.all,audit.all?batch=1&input=%7B%220%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%221%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%222%22%3A%20%7B%22json%22%3A%20null%7D%2C%20%223%22%3A%20%7B%22json%22%3A%20null%7D%7D",
+    "status": 207,
+    "content_type": "application/json",
+    "location": "",
+    "body": "[{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"notification.all\",\"zodError\":null}}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"project.all\",\"zodError\":null}}}},{\"error\":{\"json\":{\"message\":\"UNAUTHORIZED\",\"code\":-32001,\"data\":{\"code\":\"UNAUTHORIZED\",\"httpStatus\":401,\"path\":\"user.all\",\"zodError\":null}}}},{\"error\":{\"json\":{\"message\":\"No procedure found on path \\\"audit.all\\\"\",\"code\":-32004,\"data\":{\"code\":\"NOT_FOUND\",\"httpStatus\":404,\"path\":\"audit.all\",\"zodError\":null}}}}]",
+    "interesting": true
+  },
+  {
+    "label": "C_auth_get-session",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/get-session",
+    "status": 200,
+    "content_type": "application/json",
+    "location": "",
+    "body": "null",
+    "interesting": true
+  },
+  {
+    "label": "C_auth_session",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/session",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_list-sessions",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/list-sessions",
+    "status": 401,
+    "content_type": "application/json",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\",\"code\":\"UNAUTHORIZED\"}",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_providers",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/providers",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_csrf",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/csrf",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_openid-configuration",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/.well-known/openid-configuration",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_jwks",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/jwks",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_user",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/user",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_token",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/token",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_userinfo",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/userinfo",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_sign-out",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/sign-out",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_github",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/callback/github",
+    "status": 302,
+    "content_type": "application/json",
+    "location": "http://188.166.36.41:3000/api/auth/error?state=state_not_found",
+    "body": "",
+    "interesting": true
+  },
+  {
+    "label": "C_auth_google",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/callback/google",
+    "status": 302,
+    "content_type": "application/json",
+    "location": "http://188.166.36.41:3000/api/auth/error?state=state_not_found",
+    "body": "",
+    "interesting": true
+  },
+  {
+    "label": "C_auth_verify-email",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/verify-email",
+    "status": 404,
+    "content_type": "text/plain;charset=UTF-8",
+    "location": "",
+    "body": "Not Found",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_magic-link",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/magic-link",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C_auth_authenticate",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/auth/passkey/authenticate",
+    "status": 404,
+    "content_type": "",
+    "location": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C2_forgot_admin_at_cibccaribbeanid_icu",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 404,
+    "content_type": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C2_forgot_admin_at_localhost",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 404,
+    "content_type": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C2_forgot_admin_at_admin_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 404,
+    "content_type": "",
+    "body": "",
+    "interesting": false
+  },
+  {
+    "label": "C2_forgot_root_at_localhost",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C2_forgot_admin_at_dokploy_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C2_forgot_dokploy_at_dokploy_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C2_forgot_support_at_cibccaribbeanid_icu",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C2_forgot_nonexistent_control_xyzzy_at_example_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/forget-password",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_admin_at_cibccaribbeanid_icu",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 401,
+    "content_type": "application/json",
+    "body": "{\"message\":\"Invalid email or password\",\"code\":\"INVALID_EMAIL_OR_PASSWORD\"}",
+    "interesting": false
+  },
+  {
+    "label": "C3_signin_admin_at_localhost",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 400,
+    "content_type": "application/json",
+    "body": "{\"message\":\"Invalid email\",\"code\":\"INVALID_EMAIL\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_admin_at_admin_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 401,
+    "content_type": "application/json",
+    "body": "{\"message\":\"Invalid email or password\",\"code\":\"INVALID_EMAIL_OR_PASSWORD\"}",
+    "interesting": false
+  },
+  {
+    "label": "C3_signin_root_at_localhost",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_admin_at_dokploy_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_dokploy_at_dokploy_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_support_at_cibccaribbeanid_icu",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "C3_signin_nonexistent_control_xyzzy_at_example_com",
+    "method": "POST",
+    "url": "http://188.166.36.41:3000/api/auth/sign-in/email",
+    "status": 429,
+    "content_type": "text/plain;charset=UTF-8",
+    "body": "{\"message\":\"Too many requests. Please try again later.\"}",
+    "interesting": true
+  },
+  {
+    "label": "D_health",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/health",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"ok\":true}",
+    "interesting": true
+  },
+  {
+    "label": "D_swagger",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/swagger",
+    "status": 307,
+    "content_type": "",
+    "location": "/",
+    "body": "/",
+    "interesting": true
+  },
+  {
+    "label": "D_swagger.json",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/swagger.json",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_openapi.json",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/openapi.json",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_docs",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/docs",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_api-docs",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api-docs",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_version",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/version",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_metrics",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/metrics",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_metrics",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/metrics",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_security.txt",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/.well-known/security.txt",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_robots.txt",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/robots.txt",
+    "status": 200,
+    "content_type": "text/plain; charset=UTF-8",
+    "location": "",
+    "body": "User-agent: *\nDisallow: /\n\n",
+    "interesting": true
+  },
+  {
+    "label": "D_sitemap.xml",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/sitemap.xml",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_setup",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/setup",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_setup",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/setup",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "D_register",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/register",
+    "status": 307,
+    "content_type": "",
+    "location": "/",
+    "body": "/",
+    "interesting": true
+  },
+  {
+    "label": "D_invitation",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/invitation",
+    "status": 307,
+    "content_type": "",
+    "location": "/",
+    "body": "/",
+    "interesting": true
+  },
+  {
+    "label": "D_dashboard",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/dashboard",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_home",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/dashboard/home",
+    "status": 307,
+    "content_type": "",
+    "location": "/",
+    "body": "/",
+    "interesting": true
+  },
+  {
+    "label": "D__buildManifest.js",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js",
+    "status": 200,
+    "content_type": "application/javascript; charset=UTF-8",
+    "location": "",
+    "body": "self.__BUILD_MANIFEST=function(s,e,a,t,c,d,n,i,r,o,b,h,j,p,g,u,f,k,m,v,I,l,_,y,w,q,B,F,A,D,S,E,L,M,N,T,U){return{__rewrites:{afterFiles:[],beforeFiles:[],fallback:[]},__routerFilterStatic:{numItems:0,errorRate:1e-4,numBits:0,numHashes:null,bitArray:[]},__routerFilterDynamic:{numItems:0,errorRate:1e-4,numBits:0,numHashes:null,bitArray:[]},\"/\":[s,w,\"static/chunks/pages/index-b489f2de59f0145a.js\"],\"/_error\":[\"static/chunks/pages/_error-856e611d00411365.js\"],\"/accept-invitation/[accept-invitation]\":[s,\"static/chunks/pages/accept-invitation/[accept-invitation]-ff77f954fa5d9ddb.js\"],\"/dashboard/deployments\":[s,e,t,m,a,\"static/chunks/pages/dashboard/deployments-ceed5db74f87eabf.js\"],\"/dashboard/docker\":[c,s,e,d,m,\"static/chunks/3200-b4048b58116aa218.js\",a,F,\"static/chunks/pages/dashboard/docker-86d52cfba604e465.js\"],\"/dashboard/home\":[s,e,n,a,\"static/chunks/pages/dashboard/home-7729e97c68437c42.js\"],\"/dashboard/monitoring\":[s,e,t,r,o,j,u,A,a,f,D,\"static/chunks/pages/dashboard/monitoring-6aeaafc5c7e7c564.js\"],\"/dashboard/project/[projectId]/environment/[environmentId]\":[c,s,e,t,d,n,b,i,q,S,\"static/chunks/1797-879b94e94b64cc90.js\",a,k,E,\"static/chunks/pages/dashboard/project/[projectId]/env",
+    "interesting": true
+  },
+  {
+    "label": "D__ssgManifest.js",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/_next/static/88EvmKYaqpt89OTUtSZnM/_ssgManifest.js",
+    "status": 200,
+    "content_type": "application/javascript; charset=UTF-8",
+    "location": "",
+    "body": "self.__SSG_MANIFEST=new Set,self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB();",
+    "interesting": true
+  },
+  {
+    "label": "D_app-paths-manifest.json",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/_next/server/app-paths-manifest.json",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_pages-manifest.json",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/_next/server/pages-manifest.json",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_middleware-manifest.json",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/_next/server/middleware-manifest.json",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_traefik",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/traefik",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": "",
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"font-sans\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title class=\"jsx-3553611837\" data-next-head=\"\">Dokploy</title><link rel=\"icon\" href=\"/icon.svg\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/_next/static/css/2345f83a87d18448.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2345f83a87d18448.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script><script src=\"/_next/static/chunks/webpack-ae635d79763a22b7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5115b136cd71a45c.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-56f398409a6a03bb.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-d695951c12a06003.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-856e611d00411365.js\" defer=\"\"></script><script src=\"/_next/static/88EvmKYaqpt89OTUtSZnM/_buildManifest.js\" defer=\"\"><",
+    "interesting": false
+  },
+  {
+    "label": "D_traefik",
+    "method": "GET",
+    "url": "http://188.166.36.41:3000/api/traefik",
+    "status": 401,
+    "content_type": "application/json; charset=utf-8",
+    "location": "",
+    "body": "{\"message\":\"Unauthorized\"}",
+    "interesting": false
+  },
+  {
+    "label": "E_docker_root",
+    "url": "http://188.166.36.41:2375/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41__ping",
+    "url": "http://188.166.36.41:2375/v1.41/_ping",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_version",
+    "url": "http://188.166.36.41:2375/v1.41/version",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_info",
+    "url": "http://188.166.36.41:2375/v1.41/info",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_containers_json",
+    "url": "http://188.166.36.41:2375/v1.41/containers/json?all=true",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_images_json",
+    "url": "http://188.166.36.41:2375/v1.41/images/json",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_volumes",
+    "url": "http://188.166.36.41:2375/v1.41/volumes",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_networks",
+    "url": "http://188.166.36.41:2375/v1.41/networks",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.41_swarm",
+    "url": "http://188.166.36.41:2375/v1.41/swarm",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.43__ping",
+    "url": "http://188.166.36.41:2375/v1.43/_ping",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.43_info",
+    "url": "http://188.166.36.41:2375/v1.43/info",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "E_docker_v1.43_containers_json",
+    "url": "http://188.166.36.41:2375/v1.43/containers/json?all=true",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port9000_root",
+    "url": "http://188.166.36.41:9000/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port9000_api_status",
+    "url": "http://188.166.36.41:9000/api/status",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port3001_root",
+    "url": "http://188.166.36.41:3001/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port4000_root",
+    "url": "http://188.166.36.41:4000/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port5000_root",
+    "url": "http://188.166.36.41:5000/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port9090_root",
+    "url": "http://188.166.36.41:9090/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port9200_root",
+    "url": "http://188.166.36.41:9200/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "G_port8888_root",
+    "url": "http://188.166.36.41:8888/",
+    "error": "All connection attempts failed"
+  },
+  {
+    "label": "H_ws_api_deploy_logs",
+    "url": "http://188.166.36.41:3000/api/deploy/logs",
+    "error": "Server disconnected without sending a response."
+  },
+  {
+    "label": "H_ws_api_deployment_logs",
+    "url": "http://188.166.36.41:3000/api/deployment/logs",
+    "error": "Server disconnected without sending a response."
+  },
+  {
+    "label": "H_ws_api_logs",
+    "url": "http://188.166.36.41:3000/api/logs",
+    "error": "Server disconnected without sending a response."
+  },
+  {
+    "label": "H_ws_api_ws",
+    "url": "http://188.166.36.41:3000/api/ws",
+    "error": "Server disconnected without sending a response."
+  },
+  {
+    "label": "H_ws_ws",
+    "url": "http://188.166.36.41:3000/ws",
+    "error": ""
+  },
+  {
+    "label": "H_ws_socket",
+    "url": "http://188.166.36.41:3000/socket",
+    "error": ""
+  },
+  {
+    "label": "H_ws_socket.io",
+    "url": "http://188.166.36.41:3000/socket.io",
+    "error": ""
+  },
+  {
+    "label": "H_ws_api_socket.io",
+    "url": "http://188.166.36.41:3000/api/socket.io",
+    "error": "Server disconnected without sending a response."
+  },
+  {
+    "label": "H_ws_trpc",
+    "url": "http://188.166.36.41:3000/trpc",
+    "error": ""
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_22",
+    "host": "188.166.36.41",
+    "port": 22,
+    "open": true,
+    "banner": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.16",
+    "interesting": true
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_25",
+    "host": "188.166.36.41",
+    "port": 25,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_53",
+    "host": "188.166.36.41",
+    "port": 53,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_587",
+    "host": "188.166.36.41",
+    "port": 587,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_2375",
+    "host": "188.166.36.41",
+    "port": 2375,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_2376",
+    "host": "188.166.36.41",
+    "port": 2376,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_3001",
+    "host": "188.166.36.41",
+    "port": 3001,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_4000",
+    "host": "188.166.36.41",
+    "port": 4000,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_5000",
+    "host": "188.166.36.41",
+    "port": 5000,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_5432",
+    "host": "188.166.36.41",
+    "port": 5432,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_6379",
+    "host": "188.166.36.41",
+    "port": 6379,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_8080",
+    "host": "188.166.36.41",
+    "port": 8080,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_8888",
+    "host": "188.166.36.41",
+    "port": 8888,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_9000",
+    "host": "188.166.36.41",
+    "port": 9000,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_9090",
+    "host": "188.166.36.41",
+    "port": 9090,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_9200",
+    "host": "188.166.36.41",
+    "port": 9200,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  },
+  {
+    "phase": "F",
+    "label": "F_tcp_27017",
+    "host": "188.166.36.41",
+    "port": 27017,
+    "open": false,
+    "error": "[WinError 1225] The remote computer refused the network connection",
+    "interesting": false
+  }
+]
